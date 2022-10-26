@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+}
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#container div {
+    background-color: darkorchid;
+    border-radius: 5px;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine div, #ten div, #eleven div, #twelve div {
+ flex-grow: 1;
+ flex-wrap: wrap;
+ gap: 10px;
+}

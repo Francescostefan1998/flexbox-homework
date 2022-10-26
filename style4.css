@@ -1,0 +1,47 @@
+body {
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 130%;
+}
+
+header {
+    background-color: black;
+    flex-grow: 1;
+    padding: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 6;
+}
+
+#leftSection {
+    padding: 30px;
+    background-color: white;
+    color: black;
+    flex-grow: 3;
+}
+#rightSection {
+    padding: 30px;
+    background-color: deeppink;
+    flex-grow: 1;
+}
+#middleSection {
+    padding: 30px;
+    background-color: darkblue;
+    flex-grow: 1;
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    flex-grow: 1;
+}
